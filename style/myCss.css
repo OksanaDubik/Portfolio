@@ -213,8 +213,7 @@ footer {
 
 .portfolio {
     padding: 10vh 0;
-    height: 100vh;
-}
+   }
 
 .portfolio-block {
     grid-template-columns: repeat(3, 1fr);
