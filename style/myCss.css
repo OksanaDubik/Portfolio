@@ -213,7 +213,7 @@ footer {
 
 .portfolio {
     padding: 10vh 0;
-   }
+}
 
 .portfolio-block {
     grid-template-columns: repeat(3, 1fr);
@@ -267,6 +267,31 @@ video {
     text-decoration: none;
     border-radius: 3px;
     margin-top: 30px;
+}
+
+.modal__title {
+    background: #a2a2f3;
+    color: #fff;
+    padding: 7px;
+    border-radius: 3px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.modal {
+    display: none;
+}
+.modal__open{
+    display: block;
+    height: auto;
+    position: relative;
+    background: linear-gradient(#8383e5, #090c30);
+    color: #ffffff;
+    padding: 20px;
+}
+.modal__open li{
+  list-style: inside;
 }
 
 .tabLinks:hover {
@@ -798,6 +823,7 @@ footer a {
     .slider {
         margin: 0 0 6vh;
     }
+
     .carousel-item {
         transition: transform .6s ease-in-out;
     }
@@ -805,12 +831,15 @@ footer a {
     .carousel-item-next {
         transform: translateX(100%)
     }
+
     .carousel-item-prev:not(.carousel-item-end) {
         transform: translateX(-100%)
     }
-   .carousel-item-end {
-       margin-left: -20vw;
+
+    .carousel-item-end {
+        margin-left: -20vw;
     }
+
     .active.carousel-item-end {
         transform: translateX(100%);
     }
@@ -877,6 +906,7 @@ footer a {
         height: 65vh;
         max-width: 70vh;
     }
+
     .carousel-item {
         transition: transform .5s ease-in-out;
     }
@@ -1051,6 +1081,7 @@ footer a {
     .aboutMе-bg::before {
         height: 250%;
     }
+
     .carousel-item {
         transition: transform .5s ease-in-out;
     }
@@ -1276,6 +1307,7 @@ footer a {
         width: 100vw;
         margin-right: -80%;
     }
+
     .carousel-item {
         transition: transform .5s ease-in-out;
     }
