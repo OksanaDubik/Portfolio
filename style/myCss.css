@@ -216,8 +216,8 @@ footer {
 }
 
 .portfolio-block {
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 2.5vw;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     grid-gap: 2vw;
     display: grid;
     padding: 0 0 70px;
@@ -240,15 +240,15 @@ footer {
 }
 
 video {
-    width: 30vw;
-    clip-path: inset(7% 3% -7% 0);
+    width: 45vw;
+    clip-path: inset(8% 1% -7% 0);
 }
 
 .video-btn {
     position: absolute;
     z-index: 10;
     margin-top: 9%;
-    margin-left: 13%;
+    margin-left: 22%;
     font-size: 16px;
     height: 37px;
     width: 37px;
@@ -277,6 +277,11 @@ video {
     margin-top: 30px;
     text-align: center;
     width: 100%;
+}
+.modal__title:hover{
+color: #fff;
+background: #a2a2f3;
+box-shadow: 7px 7px 12px rgba(52, 52, 77, 0.3);
 }
 
 .modal {
@@ -387,6 +392,8 @@ video {
     background: #a2a2f3;
     color: #fff;
     padding: 15px;
+    height: 50vh;
+    border-radius: 0 0 20px 20px;
 }
 
 .tabLinks {
