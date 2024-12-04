@@ -392,7 +392,7 @@ box-shadow: 7px 7px 12px rgba(52, 52, 77, 0.3);
     background: #a2a2f3;
     color: #fff;
     padding: 15px;
-    height: 50vh;
+    height: auto;
     border-radius: 0 0 20px 20px;
 }
 
